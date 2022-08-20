@@ -350,7 +350,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-right: 150px;
     gap: 15px;
 }
 
