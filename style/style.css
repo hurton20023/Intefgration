@@ -289,7 +289,7 @@
 
 .container-3 {
     display: flex;
-    gap: 180px;
+    gap: 160px;
     align-items: center;
     flex-direction: row;
 }
@@ -384,14 +384,17 @@
 }
 
 .container-4{
+    height: 110px;  
     display: flex;
     flex-direction: row;
+    background-color: #EAE9EE;
     align-items: center;
     padding-left: 100px;
     padding-top: 70px;
     justify-content: space-between;
     gap: 50px;
     padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link{
@@ -416,7 +419,13 @@
 }
 
 .footer-content img{
-    width: 70px;
+    width: 40px;
+    background-color: #603CC2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+    padding-right: 20px;
+    border-radius: 15px ;
 }
 
 .footer-content h4{
