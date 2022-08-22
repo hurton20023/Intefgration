@@ -6,14 +6,14 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-top: 20px ;
-
+    gap: 500px;
     align-items: center;
     padding-right: 100px;
     padding-left: 100px;
@@ -51,8 +51,9 @@
 
 .header {
     display: flex;
+    flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 60px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
@@ -254,13 +255,15 @@
     padding-bottom: 25px;
     padding-left: 100px;
     padding-right: 100px;
-    justify-content: space-between;
+    
 }
 
 .dev-img img{
     width: 500px;
 }
-
+.dev-right{
+    padding: 0;
+}
 .dev-content{
     display: flex;
     text-align: left;
@@ -273,6 +276,8 @@
 
     color: #656565;
     line-height: 25px;
+    margin: 0;
+    width: 500px;
 
 
 }
@@ -289,7 +294,7 @@
 
 .container-3 {
     display: flex;
-    gap: 160px;
+    gap: 180px;
     align-items: center;
     flex-direction: row;
 }
@@ -384,17 +389,14 @@
 }
 
 .container-4{
-    height: 110px;  
     display: flex;
     flex-direction: row;
     background-color: #EAE9EE;
     align-items: center;
     padding-left: 100px;
     padding-top: 70px;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 180px;
     padding-right: 100px;
-    padding-bottom: 100px;
 }
 
 .footer-link{
@@ -419,13 +421,7 @@
 }
 
 .footer-content img{
-    width: 40px;
-    background-color: #603CC2;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 23px;
-    padding-right: 20px;
-    border-radius: 15px ;
+    width: 70px;
 }
 
 .footer-content h4{
